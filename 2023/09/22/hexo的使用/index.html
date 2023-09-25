@@ -29,7 +29,7 @@
 <meta property="og:image" content="http://hlsltm.github.io/images/hexo%E7%9A%84%E4%BD%BF%E7%94%A8/image-20230922102618394.png">
 <meta property="og:image" content="http://hlsltm.github.io/images/hexo%E7%9A%84%E4%BD%BF%E7%94%A8/image-20230922102211755.png">
 <meta property="article:published_time" content="2023-09-22T01:41:49.000Z">
-<meta property="article:modified_time" content="2023-09-22T02:37:02.505Z">
+<meta property="article:modified_time" content="2023-09-25T01:29:52.655Z">
 <meta property="article:author" content="天絮">
 <meta property="article:tag" content="记录">
 <meta name="twitter:card" content="summary_large_image">
@@ -75,7 +75,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"hlsltm.github.io","root":"/","version":"1.9.5","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"ViLbuXv6pELnUXh5SxDYGPLg-MdYXbMMI","app_key":"vMencLrEt1m15vINWN0RB6ZC","server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"hlsltm.github.io","root":"/","version":"1.9.5","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"ViLbuXv6pELnUXh5SxDYGPLg-MdYXbMMI","app_key":"vMencLrEt1m15vINWN0RB6ZC","server_url":"https://vilbuxv6.api.lncldglobal.com","path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -255,7 +255,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.5k 字
+          1.8k 字
         
       </span>
     
@@ -266,7 +266,7 @@
         
         
         
-          13 分钟
+          16 分钟
         
       </span>
     
@@ -359,6 +359,9 @@
 
 <p>我的分类示例如下：</p>
 <p><img src="/../images/hexo%E7%9A%84%E4%BD%BF%E7%94%A8/image-20230922102211755.png" srcset="/img/loading.gif" lazyload alt="image-20230922102211755"></p>
+<h2 id="覆盖配置"><a href="#覆盖配置" class="headerlink" title="覆盖配置"></a>覆盖配置</h2><p>在启动服务时命令行界面总是提示推荐使用覆盖配置，但是我去官方查询覆盖配置的时候，上面写着通过npm安装的可忽略，其他安装方法建议学习，所以一开始我就没看。</p>
+<p>提示多了我就去官方看了下具体内容，发现这个覆盖配置在很多地方都应该可以很好的使用，但是不知道为什么我看的博客里面居然不推荐我使用。可以说是浪费了我很大一把的时间了。</p>
+<p>简单的说覆盖是在主题外面额外添加一个<code>_config_fluid_yml</code>,将需要改变的配置写入，修改的配置会覆盖原本主题的配置，没有修改的配置就会使用默认配置。这样子写好一个覆盖配置文件之后，以后需要修改的内容在这一份文件里面修改即可，不需要看原本主题配置文件。虽然原本主题文件很全面，但是太过全面就会造成当修改一个配置的时候会很难找到具体配置位置。</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>还在使用中，具体更多操作以后补充。</p>
 <p>啦啦啦啦啦</p>
 
